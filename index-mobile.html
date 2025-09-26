@@ -17,6 +17,13 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
       rel="stylesheet"
     />
+     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <header>
@@ -62,26 +69,26 @@
       <section>
         <div>
           <h1>Epicode garantisce</h1>
-          <p>
+          <p class="quote">
             "3 mesi intensivi di corso che cambieranno radicalmente la tua
             vita".
           </p>
         </div>
         <div>
-          <h2>Mario Rossi</h2>
+          <h2 class="CEO">Mario Rossi</h2>
           <p>CEO, Epicode</p>
         </div>
       </section>
       <article>
         <div>
-          <img />
+          <img src="./assets/images/foto1.jpg" />
           <h2>Il tuo PC</h2>
           <p>
             Se vuoi diventare developer è l’unico strumento di cui hai bisogno.
           </p>
         </div>
         <div>
-          <img />
+          <img src="./assets/images/foto2.jpg" />
           <h2>Impara ora</h2>
           <p>
             Impara da chi diventerai tra qualche anno, e diventa una rockstar
@@ -89,7 +96,7 @@
           </p>
         </div>
         <div>
-          <img />
+          <img src="./assets/images/foto3.jpg" />
           <h2>Lavora subito</h2>
           <p>Sappiamo cosa vogliono le aziende, perché lavoriamo con loro.</p>
         </div>
@@ -98,11 +105,12 @@
     <footer>
       <div>
         <h1>Contattaci</h1>
-        <p><a href="#">(+39) 11223456</a></p>
-        <p><a href="mailto:info@epicode.school">info@epicode.school</a></p>
-        <p>Via Appia 1 - 00100 Roma(RM)</p>
+        <p><i class="fas fa-phone-square-alt"></i> <a href="#">(+39) 11223456</a></p>
+        <p><i class="fas fa-envelope-square"></i> <a href="mailto:info@epicode.school">info@epicode.school</a></p>
+        <p><i class="fas fa-external-link-square-alt"></i> Via Appia 1 - 00100 Roma(RM)</p>
       </div>
-      <p>&copy; 2021. Immagini di <a href="#">Pixabay</a></p>
+      <hr>
+      <p id="final-p">&copy; 2021. Immagini di <a href="#">Pixabay</a></p>
     </footer>
   </body>
 </html>
