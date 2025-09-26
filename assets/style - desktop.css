@@ -78,11 +78,15 @@ header div {
   padding-bottom: 40px;
   text-align: center;
 }
-header img {
-  width: 40%;
-  align-items: left;
+#logo {
+  display: inline-block;
+  padding-top: 2%;
+  padding-left: 5%;
 }
+
 #special-div {
+  padding-top: 150px;
+  padding-bottom: 240px;
   width: 100%;
   background-image: url(./images/banner.jpg);
   background-size: cover;
