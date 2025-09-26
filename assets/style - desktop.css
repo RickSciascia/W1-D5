@@ -80,6 +80,7 @@ header div {
 }
 header img {
   width: 40%;
+  align-items: left;
 }
 #special-div {
   width: 100%;
