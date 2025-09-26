@@ -1,5 +1,175 @@
-/* DEFAULT */
+/* GENERALI */
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
 
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin: 0.5em 0; /* 1em sopra e sotto, 0 dx e sx */
+  line-height: 1.5em;
+  color: #25a2c3;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
+h3 {
+  font-size: 1.25em;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: #393d41;
+  margin: 0.25em 0;
+  line-height: 1.65em;
+}
+
+ol,
+ul {
+  padding-left: 2em;
+  margin: 1em;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+main {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body p {
+  color: #393d41;
+  font-size: 1.2rem;
+}
 /* HEADER */
+header {
+  background-color: black;
+}
+header div {
+  padding-top: 35px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+header img {
+  width: 40%;
+}
+#special-div {
+  margin-top: 0;
+  width: 100%;
+  background-image: url(./images/banner.jpg);
+  background-size: cover;
+}
+#special-div h1 {
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#special-div p {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 40px;
+}
+#special-div button {
+  background-color: #f04c2f;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  padding: 15px 30px;
+  color: white;
+  border-radius: 5px;
+  border-color: transparent;
+}
 /* MAIN */
+main {
+  text-align: center;
+}
+main div {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+#image-rounded {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 90%;
+  border-radius: 50%;
+}
+/* section */
+section {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #f04c2f;
+  width: 100%;
+  text-align: center;
+}
+section p,
+section h1,
+section h2 {
+  color: white;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+section h2 {
+}
+/* article */
+article {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+article div {
+  border-color: #dee1e3;
+  border-style: solid;
+  border-width: 1px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
 /* FOOTER */
+footer {
+  text-align: center;
+  background-color: #25a2c3;
+}
+footer h1 {
+  padding-top: 25px;
+  color: white;
+}
+footer p {
+  color: #c8e7f0;
+  font-size: medium;
+  margin-bottom: 0;
+}
+footer p a {
+  color: #c8e7f0;
+}
